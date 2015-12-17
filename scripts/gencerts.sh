@@ -9,3 +9,8 @@ ${DIR}/genca.sh
 ${DIR}/genclient.sh
 ${DIR}/genserver.sh
 ${DIR}/gentrustanchor.sh
+
+mkdir ../certs
+mv client* ../certs
+mv example* ../certs
+mv password ../certs
